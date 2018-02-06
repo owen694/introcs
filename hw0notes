@@ -1,0 +1,34 @@
+html
+the document declaration is the doctype at the top
+not all tags have opening and closing
+some tags are self closing like < stuff />
+attributes are extra bits of info in quotes
+elements mark up webpages stuff within the tag
+headings are tags and they change font size
+lists; definition lists, unordered lists, and ordered lists
+ul unordered bullet points ol ordered
+anchor tag a href marks destination
+the src indicates the source of the image
+alt alternative description for users who cannot see the image
+
+css
+inline
+use the style attribute
+should be avoided
+internal
+embedded styles are used for the whole page
+its like style tag and uniform for each tag p{}
+external is making a separate css file and
+saving it as style.css in the same directory you can link the
+two pages together <link rel="stylesheet" href=style.css>
+selectors are given to styles in internal and external style sheets
+selector {properties;}
+px are pixels em are for font pt is for points and % percentages
+for zero unit does not need to be specified
+hex nums are prefaced by # you can also use name colors built into css as well as rgb 3 val
+class and id selectors
+class is represented by #
+id is <div id="">
+id can be used to identify one element but class can do more than one
+you can also apply selectors by stating the selector first
+like p.jam{properties} only applies to paragraphs w class jam
