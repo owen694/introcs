@@ -1,0 +1,31 @@
+#part one
+'''
+a=(int(raw_input("enter an integer:")))
+b=(int(raw_input("enter an integer:")))
+c=(int(raw_input("enter an integer:")))
+'''
+a=2
+b=6
+c=6
+
+isEven = lambda x: x%2 == 0
+isOdd = lambda x: x%2 != 0
+isMax = lambda y: y == max(a,b,c)
+
+def largestOdd:
+if isEven(a) and isEven(b) and isEven(c):
+    print "none of the inputs are odd"
+elif isOdd(a) and isMax(a):
+    print a
+elif isOdd(b) and isMax(b):
+    print b
+elif isOdd(c) and isMax(c):
+    print c
+else:
+    print "the largest number is not odd"
+
+#part 2a
+def store(x,y,z):
+
+
+    list.sort(xy)
