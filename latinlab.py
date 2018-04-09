@@ -25,23 +25,10 @@ def find(sub,s, start = 0):
             return i
 
 def convSentence(sen):
-    b = 0
-    if '?' in sen:
-        pl= find('?',sen)
-        sen = sen[:pl] + sen[pl+1:]
-        b = 1
-    if ',' in sen:
-        pl= find(',',sen)
-        sen = sen[:pl] + sen[pl+1:]
-        b = 2
     sen = sen.split()
     smth = ''
     for i in range(len(sen)):
         sen[i] = pigLatin(sen[i])
         smth += sen[i]+' '
     smth = smth.swapcase()
-    if b == 1:
-        smth + "?"
-    elif b == 2:
-        smth + '.'
     return smth
